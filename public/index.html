@@ -27,7 +27,7 @@
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-8" >
-						<canvas height="200" id="bitChart"></canvas>
+						<canvas height="200" id="btc24hChart"></canvas>
 					</div>
 					<div class="col-md-4">
 						<h3>BTC to USD</h3>
@@ -40,7 +40,7 @@
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-8">
-						<canvas height="200" id="ethChart"></canvas>
+						<canvas height="200" id="eth24hChart"></canvas>
 					</div>
 					<div class="col-md-4">
 						<h3>ETH to USD</h3>
@@ -53,14 +53,13 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8">
-				<canvas id="myChart"></canvas>
+				<canvas id="btc30dayChart"></canvas>
 			</div>
 			<div class="col-md-4">
-				<h2>News</h2>
+				<h2>BitCoin News</h2>
 				<a class="twitter-timeline"
-				href="https://twitter.com/TwitterDev"
+				href="https://twitter.com/BTCTN"
 				data-height="300">
-				Tweets by @TwitterDev
 				</a>
 			</div>
 		</div>
@@ -74,10 +73,5 @@
 	</footer>
 	<!-- Main Logic -->
 	<script type="text/javascript" src="./script/main.js"></script>
-	<script type="text/javascript">
-		liveRates();
-		setInterval("liveRates();",1000);
-		loadTwitterFeed();
-	</script>
   </body>
 </html>
