@@ -7,7 +7,7 @@ This project is only for education purposes.
 
 * [ChartJS](https://www.chartjs.org/docs/latest/) - Used to generate charts
 * [CryptoCompare](https://min-api.cryptocompare.com/documentation) - API used to pull data for BTC and ETH
- 
+* [TwitterAPI](https://developer.twitter.com/en/docs) - API used to get twitter feed
 
 ## Authors
 
